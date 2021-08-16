@@ -54,7 +54,7 @@ interaction between these variables with the help of suitable plots:
 
 ### **Visualizations**
 
-<img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-4-1.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-4-2.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-4-3.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-4-4.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-4-5.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-4-6.png" width="50%" />
+<img src="Figs/unnamed-chunk-4-1.png" width="50%" /><img src="Figs/unnamed-chunk-4-2.png" width="50%" /><img src="Figs/unnamed-chunk-4-3.png" width="50%" /><img src="Figs/unnamed-chunk-4-4.png" width="50%" /><img src="Figs/unnamed-chunk-4-5.png" width="50%" /><img src="Figs/unnamed-chunk-4-6.png" width="50%" />
 
 **Observations**
 
@@ -72,7 +72,7 @@ interaction between these variables with the help of suitable plots:
 
     ## Warning: `fun.y` is deprecated. Use `fun` instead.
 
-<img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-5-1.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-5-2.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-5-3.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-5-4.png" width="50%" />
+<img src="Figs/unnamed-chunk-5-1.png" width="50%" /><img src="Figs/unnamed-chunk-5-2.png" width="50%" /><img src="Figs/unnamed-chunk-5-3.png" width="50%" /><img src="Figs/unnamed-chunk-5-4.png" width="50%" />
 
 **Observations**
 
@@ -84,7 +84,7 @@ interaction between these variables with the help of suitable plots:
 -   The is a significant difference in the of rent for green and
     non-green building in case of class A buildings
 
-<img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-6-1.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-6-2.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-6-3.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-6-4.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-6-5.png" width="50%" /><img src="exam_stats_2_files/figure-markdown_strict/unnamed-chunk-6-6.png" width="50%" />
+<img src="Figs/unnamed-chunk-6-1.png" width="50%" /><img src="Figs/unnamed-chunk-6-2.png" width="50%" /><img src="Figs/unnamed-chunk-6-3.png" width="50%" /><img src="Figs/unnamed-chunk-6-4.png" width="50%" /><img src="Figs/unnamed-chunk-6-5.png" width="50%" /><img src="Figs/unnamed-chunk-6-6.png" width="50%" />
 
 **Observations**
 
@@ -164,21 +164,20 @@ possible.
 
 **Flights Departed from/Landed at Austin in 2008 by Carrier**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-10-1.png) We
-can see Southwest(WN) is the largest carrier in Austin, followed by AA.
-As expected, equal number of flights are arriving to and departing from
-Austin
+![](Figs/unnamed-chunk-10-1.png) We can see Southwest(WN) is the largest
+carrier in Austin, followed by AA. As expected, equal number of flights
+are arriving to and departing from Austin
 
 **Flights Arriving to Austin**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![](Figs/unnamed-chunk-11-1.png)
 
 These are the top 10 origins with flights landing at Austin. DAL and DFW
 (Dallas) have majority of flights to Austin
 
 **Flights Departing from Austin**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-12-1.png)
+![](Figs/unnamed-chunk-12-1.png)
 
 Most of the flights starting from Austin are directed towards the above
 mentioned top 10 destinations. Again majority of the flights are for
@@ -196,7 +195,7 @@ Austin
 
     ## Warning: Removed 24 rows containing missing values (geom_point).
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-13-1.png)
+![](Figs/unnamed-chunk-13-1.png)
 
 The flights originating from Dallas are reducing after June. The flights
 from other regions show no such drastic decline
@@ -211,30 +210,29 @@ Year**
 
     ## Warning: Removed 24 rows containing missing values (geom_point).
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-14-1.png)
-Similar drop in Austin to Dallas flights can be seen from June.
+![](Figs/unnamed-chunk-14-1.png) Similar drop in Austin to Dallas
+flights can be seen from June.
 
 We try to evaluate the reason for the sudden drop in flights departing
 from or arriving at Dallas from June
 
 **Flights Originating from or Arriving at Dallas by Carrier**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-15-1.png) MQ
-carrier stopped its service after June and that explains the drop in the
-Dallas flights
+![](Figs/unnamed-chunk-15-1.png) MQ carrier stopped its service after
+June and that explains the drop in the Dallas flights
 
 Now, checking frequency of short and long distance flights
 
 **Arrival/Departure by Day of the Week**
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-16-1.png)
+![](Figs/unnamed-chunk-16-1.png)
 
 Thus, Saturdays and Sundays seem to have lesser number of flights
 arriving to or departing from Austin
 
 **Long Distance/Short Distance Flights**
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-17-1.png)
+![](Figs/unnamed-chunk-17-1.png)
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-18-1.png)
+![](Figs/unnamed-chunk-18-1.png)
 
 Now, let’s find out the month with the highest fraction of delays:
 
@@ -254,7 +252,7 @@ Now, let’s find out the month with the highest fraction of delays:
     ## 11: Nov     800      6198 0.1143184
     ## 12: Dec    1791      5373 0.2500000
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-19-1.png)
+![](Figs/unnamed-chunk-19-1.png)
 
 December has the maximum delays with 25% of the flights in December
 getting delayed
@@ -281,7 +279,7 @@ Let’s see the pattern of delay in a week
     ## 6: Sat    1733      9571 0.1533086
     ## 7: Sun    2516     11151 0.1840931
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-20-1.png)
+![](Figs/unnamed-chunk-20-1.png)
 
 We can see that 21% of the flights gets delayed on a Friday  
 Wednesdays and Saturdays are the best days to travel since they seem to
@@ -313,7 +311,7 @@ Let’s find out the busiest time of the day
     ## 
     ##     col_factor
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-21-1.png)
+![](Figs/unnamed-chunk-21-1.png)
 
 We see that 32% of flights get delayed if they are departing from Austin
 between 9pm and 1am.
@@ -325,11 +323,11 @@ from Austin - to top 10 airports\*\*
 
 **Flights with Carrier Delay as the Contributing Factor**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-22-1.png)
+![](Figs/unnamed-chunk-22-1.png)
 
 **Flights with Weather Delay as the Contributing Factor**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-23-1.png)
+![](Figs/unnamed-chunk-23-1.png)
 
 ## **Portfolio Modeling**
 
@@ -398,62 +396,62 @@ have considered 5 years of ETF data starting from 01-Jan-2016 to
     ## Warning in read.table(file = file, header = header, sep = sep,
     ## quote = quote, : incomplete final line found by readTableHeader
     ## on 'https://query1.finance.yahoo.com/v7/finance/download/SPY?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
 
     ## Warning in read.table(file = file, header = header, sep = sep,
     ## quote = quote, : incomplete final line found by readTableHeader
-    ## on 'https://query1.finance.yahoo.com/v7/finance/download/SPY?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
-
-    ## Warning in read.table(file = file, header = header, sep = sep,
-    ## quote = quote, : incomplete final line found by readTableHeader
-    ## on 'https://query2.finance.yahoo.com/v7/finance/download/DBO?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=div&crumb=jSmRgSfIeUq'
-
-    ## Warning in read.table(file = file, header = header, sep = sep,
-    ## quote = quote, : incomplete final line found by readTableHeader
-    ## on 'https://query2.finance.yahoo.com/v7/finance/download/DBO?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
+    ## on 'https://query2.finance.yahoo.com/v7/finance/download/SPY?
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
 
     ## Warning in read.table(file = file, header = header, sep = sep,
     ## quote = quote, : incomplete final line found by readTableHeader
     ## on 'https://query1.finance.yahoo.com/v7/finance/download/DBO?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=div&crumb=muYmBib7JJc'
+
+    ## Warning in read.table(file = file, header = header, sep = sep,
+    ## quote = quote, : incomplete final line found by readTableHeader
+    ## on 'https://query1.finance.yahoo.com/v7/finance/download/DBO?
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
+
+    ## Warning in read.table(file = file, header = header, sep = sep,
+    ## quote = quote, : incomplete final line found by readTableHeader
+    ## on 'https://query2.finance.yahoo.com/v7/finance/download/DBO?
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
 
     ## Warning in read.table(file = file, header = header, sep = sep,
     ## quote = quote, : incomplete final line found by readTableHeader
     ## on 'https://query2.finance.yahoo.com/v7/finance/download/XHB?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
 
     ## Warning in read.table(file = file, header = header, sep = sep,
     ## quote = quote, : incomplete final line found by readTableHeader
-    ## on 'https://query2.finance.yahoo.com/v7/finance/download/XHB?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
-
-    ## Warning in read.table(file = file, header = header, sep = sep,
-    ## quote = quote, : incomplete final line found by readTableHeader
-    ## on 'https://query1.finance.yahoo.com/v7/finance/download/XLE?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
+    ## on 'https://query1.finance.yahoo.com/v7/finance/download/XHB?
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
 
     ## Warning in read.table(file = file, header = header, sep = sep,
     ## quote = quote, : incomplete final line found by readTableHeader
     ## on 'https://query2.finance.yahoo.com/v7/finance/download/XLE?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
+
+    ## Warning in read.table(file = file, header = header, sep = sep,
+    ## quote = quote, : incomplete final line found by readTableHeader
+    ## on 'https://query1.finance.yahoo.com/v7/finance/download/XLE?
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
+
+    ## Warning in read.table(file = file, header = header, sep = sep,
+    ## quote = quote, : incomplete final line found by readTableHeader
+    ## on 'https://query1.finance.yahoo.com/v7/finance/download/CPER?
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=div&crumb=muYmBib7JJc'
+
+    ## Warning in read.table(file = file, header = header, sep = sep,
+    ## quote = quote, : incomplete final line found by readTableHeader
+    ## on 'https://query1.finance.yahoo.com/v7/finance/download/CPER?
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
 
     ## Warning in read.table(file = file, header = header, sep = sep,
     ## quote = quote, : incomplete final line found by readTableHeader
     ## on 'https://query2.finance.yahoo.com/v7/finance/download/CPER?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=div&crumb=jSmRgSfIeUq'
-
-    ## Warning in read.table(file = file, header = header, sep = sep,
-    ## quote = quote, : incomplete final line found by readTableHeader
-    ## on 'https://query1.finance.yahoo.com/v7/finance/download/CPER?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
-
-    ## Warning in read.table(file = file, header = header, sep = sep,
-    ## quote = quote, : incomplete final line found by readTableHeader
-    ## on 'https://query1.finance.yahoo.com/v7/finance/download/CPER?
-    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=jSmRgSfIeUq'
+    ## period1=-2208988800&period2=1629072000&interval=1d&events=split&crumb=muYmBib7JJc'
 
 **Sample Data for SPY using quantmode library**
 
@@ -475,7 +473,7 @@ have considered 5 years of ETF data starting from 01-Jan-2016 to
 
 Now, let’s see the relationships between these stocks:
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-27-1.png)
+![](Figs/unnamed-chunk-27-1.png)
 
 As we can see from the above pair-plot, CEPR does not have a correlation
 with any of the other stocks. There seems to be a high correlation
@@ -485,7 +483,7 @@ Now, let us look at the volatility of ETFs over these 5 years period.
 
 **Volatility of the 5 ETFs over the past 5 years**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-28-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-28-2.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-28-3.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-28-4.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-28-5.png)
+![](Figs/unnamed-chunk-28-1.png)![](Figs/unnamed-chunk-28-2.png)![](Figs/unnamed-chunk-28-3.png)![](Figs/unnamed-chunk-28-4.png)![](Figs/unnamed-chunk-28-5.png)
 
 We see that CPER has the minimum volatility but it also gives lesser
 returns. We also observe that ups and dows of the stocks do not
@@ -498,45 +496,45 @@ Now, let us evalute different possibilities of the ETF based portfolio:
 We begin our simulation by taking equal weights of all the 5 ETFs
 
     ##              [,1]     [,2]     [,3]     [,4]     [,5]     [,6]     [,7]
-    ## result.1 125050.1 125123.2 124266.3 124850.6 126615.3 126790.4 124750.6
-    ## result.2 123425.4 125659.1 124433.3 123939.3 121843.3 122700.6 122620.6
-    ## result.3 126065.6 125057.3 125110.4 124885.5 125210.7 126099.6 125004.1
-    ## result.4 124833.5 125168.9 124543.5 129958.4 130436.0 130481.5 129565.6
-    ## result.5 125643.6 126010.8 126276.0 127252.4 127334.0 128176.1 130858.0
-    ## result.6 125850.3 126136.1 128079.5 127245.9 128202.4 126326.0 126483.7
+    ## result.1 122955.4 124222.9 125472.4 125818.3 123226.9 121918.0 122411.5
+    ## result.2 124473.2 123984.3 123584.6 122479.4 122267.1 123275.6 123364.6
+    ## result.3 125756.9 126645.5 125819.1 125821.7 122473.2 122004.7 122093.8
+    ## result.4 125037.5 125193.7 125380.3 125350.0 125026.8 126015.1 126341.9
+    ## result.5 126204.7 126008.8 125266.8 124577.0 123311.1 123356.0 124131.8
+    ## result.6 127440.9 128108.9 128930.6 128719.0 128460.6 128385.5 131781.6
     ##              [,8]     [,9]    [,10]    [,11]    [,12]    [,13]    [,14]
-    ## result.1 124585.3 123576.9 123863.6 124749.4 125712.7 126525.0 126797.2
-    ## result.2 122472.8 123435.6 123465.6 124992.0 125105.6 125006.1 124750.5
-    ## result.3 125093.2 128085.9 128194.9 126772.8 127831.7 128802.3 125374.0
-    ## result.4 128695.2 129042.6 129905.3 129111.0 130671.1 130285.1 130464.1
-    ## result.5 130649.7 130568.7 131019.5 131576.9 130476.6 129827.8 129826.8
-    ## result.6 126773.6 124002.4 125000.6 124220.3 125176.9 125113.5 125752.9
+    ## result.1 121420.0 120176.8 120740.5 119667.6 119937.7 119490.3 119774.5
+    ## result.2 122927.4 123433.9 125200.3 125492.6 126598.9 126166.0 125998.1
+    ## result.3 122276.3 121600.0 121267.4 121473.5 121266.7 121971.6 122487.4
+    ## result.4 126104.6 125940.0 126669.3 126722.2 126286.0 128119.7 128572.9
+    ## result.5 124348.2 124609.0 124446.9 125754.1 125591.7 124478.2 123289.9
+    ## result.6 131321.1 131056.5 131105.9 131570.7 131607.9 129435.1 129112.9
     ##             [,15]    [,16]    [,17]    [,18]    [,19]    [,20]
-    ## result.1 128165.1 127644.3 127120.2 128359.8 128014.5 130523.4
-    ## result.2 124262.6 124268.3 124013.1 121444.1 121081.5 121251.4
-    ## result.3 125208.1 125363.6 125649.1 124496.2 125082.8 126222.8
-    ## result.4 133035.3 131692.4 130537.0 130601.5 130822.1 133019.0
-    ## result.5 130291.3 127717.2 128122.6 128962.2 129206.5 128399.8
-    ## result.6 123269.3 124305.1 121271.8 121241.6 119253.7 117493.4
+    ## result.1 119953.9 119778.3 116888.2 116634.8 117224.8 116518.1
+    ## result.2 126460.6 128998.6 126817.7 126087.7 125615.7 125117.8
+    ## result.3 123580.9 125434.3 125873.0 125171.8 122956.3 122232.8
+    ## result.4 129512.5 129812.5 128812.7 130538.9 131154.6 130839.3
+    ## result.5 124062.0 122105.9 121520.9 120790.0 118589.0 120200.3
+    ## result.6 129705.1 129788.8 130379.8 132984.2 132516.1 131975.5
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-30-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-30-2.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-30-3.png)
+![](Figs/unnamed-chunk-30-1.png)![](Figs/unnamed-chunk-30-2.png)![](Figs/unnamed-chunk-30-3.png)
 
     ## Confidence Interval from Bootstrap Distribution (5000 replicates)
 
     ## 
-    ## Average return of investement after 20 days 125500.2
+    ## Average return of investement after 20 days 125473.2
 
     ## 
-    ## 5% Value at Risk for equal weighted portfolio- 16452.39
+    ## 5% Value at Risk for equal weighted portfolio- 16252.45
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-32-1.png)
+![](Figs/unnamed-chunk-32-1.png)
 
-    ## [1] 25500.24
+    ## [1] 25473.21
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-33-1.png)
+![](Figs/unnamed-chunk-33-1.png)
 
     ##       5% 
-    ## 16452.39
+    ## 16252.45
 
 **Simulation 2: Safe Portfolio of ETFs: **
 
@@ -544,77 +542,77 @@ Now we take more weightage(60%) of the safe portfolio i.e CEPR and 10%
 each of the other 4 portfolios
 
     ##               [,1]      [,2]      [,3]      [,4]      [,5]      [,6]      [,7]
-    ## result.1  99498.80  98403.59  97979.12  97056.22  97388.60  98193.00  98496.64
-    ## result.2 100803.65 100014.37  98117.25  97618.00  99533.28 102938.29 102381.90
-    ## result.3  99507.19 100603.20 100148.06 100196.73  98354.95  97711.31  97970.83
-    ## result.4 101959.54  99877.70  99306.90  97649.59  97840.19  95935.36  96357.17
-    ## result.5 100951.11 101123.94 100366.76 101266.92 102549.05 103032.74 102306.37
-    ## result.6  99351.29 100157.25 100722.93 101370.92 101386.56 101340.08  99684.12
+    ## result.1  99453.20 100871.20 102137.39 102934.55 102425.90 101855.03 102469.17
+    ## result.2  99164.27  98520.36  99354.16  99637.22 100218.71 100223.21 102013.23
+    ## result.3 100424.71 100843.96 100425.24 100699.47 100676.93 100920.83 101600.51
+    ## result.4 100208.46 101055.59 100376.10  99980.93  99322.99  99551.72  98718.36
+    ## result.5 101494.39 100922.82 101091.55 101912.49 101573.77 102014.03 101327.19
+    ## result.6 100859.62 102129.59 100435.94 100685.28 100086.13 100153.90 101351.11
     ##               [,8]      [,9]     [,10]     [,11]     [,12]     [,13]     [,14]
-    ## result.1  98041.21  98374.54  97984.88  98585.81  98492.40  98389.06  97613.96
-    ## result.2 104283.95 103255.10 103085.81 103726.98 103561.15 104105.47 102849.78
-    ## result.3  98016.57  96814.17  97247.46  99136.52  99066.50 101551.75 101087.23
-    ## result.4  95917.43  95122.14  94576.50  94835.93  95189.18  96055.80  96047.04
-    ## result.5 101860.11 101475.39 101115.55 101734.93 101868.28 101923.12 100788.26
-    ## result.6  99468.39  98473.55  98610.40 100978.75 100390.29 100672.37 100592.98
+    ## result.1 103047.96 103282.13 103197.36 102058.49 102469.90 101985.42 102529.93
+    ## result.2 104403.57 103999.94 103586.55 105482.20 105397.21 105478.84 106164.80
+    ## result.3 102200.30 102011.68 100798.03 100565.61 101539.25 101552.09 104335.85
+    ## result.4  98779.65  99748.21  98781.15  98239.61  98865.39  98575.07  97951.34
+    ## result.5 101123.51 101244.96  98725.76  98881.05  99123.94  98571.15  96905.08
+    ## result.6 100487.78 101782.08  99784.58  99341.78  99836.78  98572.56  97990.63
     ##              [,15]     [,16]     [,17]     [,18]     [,19]     [,20]
-    ## result.1  98221.43  97916.25  98704.90  98775.05  98916.70  98443.36
-    ## result.2 104012.62 103541.94 103414.76 102939.19 103164.04 104559.91
-    ## result.3 101681.29 100633.72 100760.42 100336.21 100507.13 100327.08
-    ## result.4  96579.33  97110.26  97189.35  95784.83  95982.26  96635.58
-    ## result.5 101192.79 102373.46 102147.77 103443.88  99839.85 100319.53
-    ## result.6 100324.45 100067.63 100331.36 102830.71 102395.82 101361.73
+    ## result.1 102513.50 101172.81 100328.19 100467.90  99789.03 101189.44
+    ## result.2 106051.93 105702.69 106574.56 104905.77 104687.81 105108.92
+    ## result.3 103901.93 104229.74 104276.07 106008.61 108142.07 109775.25
+    ## result.4  97881.30  97532.25  97639.31  96459.62  96532.13  96947.59
+    ## result.5  91355.56  91060.86  91362.68  90152.42  90973.00  92283.66
+    ## result.6  98122.96  96170.08  94103.49  95195.89  95099.92  95178.80
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-35-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-35-2.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-35-3.png)
+![](Figs/unnamed-chunk-35-1.png)![](Figs/unnamed-chunk-35-2.png)![](Figs/unnamed-chunk-35-3.png)
 
     ## Confidence Interval from Bootstrap Distribution (5000 replicates)
 
     ## 
-    ## Average return of investement after 20 days 100460.5
+    ## Average return of investement after 20 days 100360.3
 
     ## 
-    ## 5% Value at Risk for safe portfolio- -7710.431
+    ## 5% Value at Risk for safe portfolio- -7809.003
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-37-1.png)
+![](Figs/unnamed-chunk-37-1.png)
 
 **Simulation 3: High Risk Portfolio of ETFs**
 
 Now, we take only 4% of the safe portfolio i.e CEPR and 24% each of the
 other 4 portfolios
 
-    ##               [,1]      [,2]      [,3]      [,4]      [,5]      [,6]      [,7]
-    ## result.1  99129.36  99387.61  99163.03  99998.23  99231.40  99468.24 100042.88
-    ## result.2  98811.33  98708.56  98290.61  97030.54  95816.63  96090.46  95863.57
-    ## result.3 100505.12 100235.26 100441.77 100767.42 101233.19 100087.84 100258.04
-    ## result.4 100601.89 101274.73 101549.86 100378.01  98417.56  98145.66  97317.13
-    ## result.5  99646.09  99166.15  99298.01  99546.36  97901.83 100191.34  98757.69
-    ## result.6  99563.25 100396.14  99002.74 101141.55 101202.66 101474.33 102807.55
+    ##              [,1]      [,2]      [,3]      [,4]      [,5]      [,6]      [,7]
+    ## result.1 100427.2  97645.71  98466.98  98688.84  97444.42  98622.97  98471.37
+    ## result.2 100052.8 100770.84 101818.02 100300.95 100478.19  99187.54 100840.78
+    ## result.3 101085.7 100853.26  98269.98  98134.13  95973.15  96395.18  95394.87
+    ## result.4 100275.7 100087.16  99621.37 100992.72 101013.78 101504.51 101268.54
+    ## result.5 100417.5 100524.05 102210.84 102520.68 101491.88 100573.17 100691.54
+    ## result.6 100654.7  99886.78  99876.76 100881.50 101042.31  99597.62 100287.75
     ##               [,8]      [,9]     [,10]     [,11]     [,12]     [,13]     [,14]
-    ## result.1  99809.55  99759.52  99965.90  99723.36  97606.25  97361.37  95619.53
-    ## result.2  95955.14  94679.09  96277.92  96247.71  96048.01  96447.38  95773.31
-    ## result.3 100305.15 101157.17  99739.02  99497.83  98239.76  99255.67  99763.37
-    ## result.4  97738.78  97606.54  97969.69 100372.27  98907.36 100009.17  99567.01
-    ## result.5  98505.72  98197.75  98661.54  98292.08  98755.86  99411.91 100024.90
-    ## result.6 104125.31 105335.13 105023.82 105752.26 105899.24 106245.65 105950.63
-    ##              [,15]     [,16]     [,17]     [,18]     [,19]     [,20]
-    ## result.1  95071.50  94792.66  94739.36  94069.80  95124.17  93234.63
-    ## result.2  96069.84  96491.58  96513.55  96409.78  97300.03  97454.74
-    ## result.3  99734.75 100426.49  99778.72  99818.67 101122.81 101789.17
-    ## result.4  99183.57  99965.41  98506.07  97875.51  97810.67  97547.66
-    ## result.5 101819.73 102234.85 104351.99 105433.82 105408.83 107097.07
-    ## result.6 106110.70 107632.54 107405.15 108362.21 109116.67 109913.29
+    ## result.1  99461.36  99815.96  97144.79  97159.30  96425.61  96645.42  96386.96
+    ## result.2 100650.01 100617.19 100225.26  99893.16  99771.09 100374.92 100568.96
+    ## result.3  96467.68  96548.64  95798.91  95595.18  97435.12  96277.52  96741.11
+    ## result.4 101326.46 101040.14 102263.84 100575.07 101764.83 101601.97 100011.59
+    ## result.5  98024.60  98140.29  97854.02  98365.58  99801.92  99748.77  99828.53
+    ## result.6  99891.32  99872.90 100341.96  99406.99  96040.62  96441.52  96526.64
+    ##              [,15]     [,16]     [,17]     [,18]    [,19]    [,20]
+    ## result.1  95271.60  93786.31  93113.87  93036.96 93167.54 93008.64
+    ## result.2 102344.72 102582.52 101513.89 100976.86 99744.46 99283.46
+    ## result.3  95995.57  93480.85  93371.25  90616.28 92070.37 91725.98
+    ## result.4  98716.85  97767.79  97771.79  97895.31 98050.32 98469.62
+    ## result.5 101303.36  98271.46  97987.47  98201.17 98036.59 97444.22
+    ## result.6  97140.76  94891.16  93083.25  92968.69 93017.90 92702.89
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-39-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-39-2.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-39-3.png)
+![](Figs/unnamed-chunk-39-1.png)![](Figs/unnamed-chunk-39-2.png)![](Figs/unnamed-chunk-39-3.png)
 
     ## Confidence Interval from Bootstrap Distribution (5000 replicates)
 
     ## 
-    ## Average return of investement after 20 days 100438.3
+    ## Average return of investement after 20 days 100381.8
 
     ## 
-    ## 5% Value at Risk for high risk portfolio- -7068.364
+    ## 5% Value at Risk for high risk portfolio- -7220.538
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-41-1.png)
+![](Figs/unnamed-chunk-41-1.png)
 
 For the equal weighted portfolio, we are observing the maximum return of
 investment but it also has the highest 5% VaR. The safe portfolio gives
@@ -675,7 +673,7 @@ potential market segmentation. Correlation matrices help us in getting
 the extent of linear relationship between variables, in turn helping us
 to better understand the dataset.
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-45-1.png)
+![](Figs/unnamed-chunk-45-1.png)
 
 Let us try to interpret the results of correlation matrix. We can see
 strong correlation between some variables. “Personal Fitness” and
@@ -698,7 +696,7 @@ Scree Plot. The Scree Plot helps us to visualize the ideal number of
 clusters based on the point where the slope of the line begins to level
 off, also known as the elbow point.
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-48-1.png)
+![](Figs/unnamed-chunk-48-1.png)
 
 As we can see from the above scree plot, the leveling off phenomena
 seems to be natural once the number of clusters reaches 11. Therefore,
@@ -715,7 +713,7 @@ clusters to be 11, we wanted to visualize this concept to see where
 specifically these clusters can be identified in the dataset. These 11
 clusters are:
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-2.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-3.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-4.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-5.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-6.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-7.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-8.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-9.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-10.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-50-11.png)
+![](Figs/unnamed-chunk-50-1.png)![](Figs/unnamed-chunk-50-2.png)![](Figs/unnamed-chunk-50-3.png)![](Figs/unnamed-chunk-50-4.png)![](Figs/unnamed-chunk-50-5.png)![](Figs/unnamed-chunk-50-6.png)![](Figs/unnamed-chunk-50-7.png)![](Figs/unnamed-chunk-50-8.png)![](Figs/unnamed-chunk-50-9.png)![](Figs/unnamed-chunk-50-10.png)![](Figs/unnamed-chunk-50-11.png)
 
 Based on the charts given above, here are the segments identified using
 K-Means:
@@ -766,7 +764,7 @@ and then run Hierarchical clustering on these components
 The variance explained by each principal component and the cumulative
 variance explained can be seen in the graph below
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-52-1.png)
+![](Figs/unnamed-chunk-52-1.png)
 
 As we can see, first few components are not sufficient to explain the
 variability in the data. 80% of the variability of our data can be
@@ -782,7 +780,7 @@ clustering. Since it is a market segment problem, we use correlation
 based distance and we try to experiment with three linkage methods :
 Single, Complete and Average
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-53-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-53-2.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-53-3.png)
+![](Figs/unnamed-chunk-53-1.png)![](Figs/unnamed-chunk-53-2.png)![](Figs/unnamed-chunk-53-3.png)
 
 We decide to go with Average linkage method(or group method) clustering
 as it provides a trade off between the senstivity of complete linkage
@@ -800,7 +798,7 @@ identify the clusters and no of entries in each cluster
 Now we want to visualize the segments identified by hierarchical
 clustering
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-2.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-3.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-4.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-5.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-6.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-7.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-8.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-9.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-10.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-55-11.png)
+![](Figs/unnamed-chunk-55-1.png)![](Figs/unnamed-chunk-55-2.png)![](Figs/unnamed-chunk-55-3.png)![](Figs/unnamed-chunk-55-4.png)![](Figs/unnamed-chunk-55-5.png)![](Figs/unnamed-chunk-55-6.png)![](Figs/unnamed-chunk-55-7.png)![](Figs/unnamed-chunk-55-8.png)![](Figs/unnamed-chunk-55-9.png)![](Figs/unnamed-chunk-55-10.png)![](Figs/unnamed-chunk-55-11.png)
 
 Based on the charts given above, here are the segments identified using
 Hierarchical Clustering:
@@ -959,7 +957,7 @@ Thus, we see that there is perfect intersection of words between test
 and train data for 7435000 elements. We remove other elements for the
 prediction putrposes.
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-69-1.png)![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-69-2.png)
+![](Figs/unnamed-chunk-69-1.png)![](Figs/unnamed-chunk-69-2.png)
 
 **4. Classification techniques to attribute the documents to its
 authors**
@@ -1049,7 +1047,7 @@ other vegetables and rolls/buns. 3. Half of the transactions have 3 or
 lesser items per basket (given by median) 4. The mean transactions are
 ~4.5 items
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-82-1.png)
+![](Figs/unnamed-chunk-82-1.png)
 
 Let’s now explore ‘apriori’ algorithm’ using 3 differet supoort and
 confidence levels:
@@ -1073,7 +1071,7 @@ confidence levels:
     ## [5] 1.513634 736  
     ## [6] 1.513634 736
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-84-1.png)
+![](Figs/unnamed-chunk-84-1.png)
 
 There are only 6 rules generated because of the high support and low
 confidence level. We also notice that most relationships in this item
@@ -1083,14 +1081,14 @@ most frequently bought items.
 
 **2) support &gt; 0.02, confidence &gt; 0.2 and length &lt;= 2**\*
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-86-1.png)
+![](Figs/unnamed-chunk-86-1.png)
 
 This item set contains 72 rules and includes a lot more items. However,
 whole milk still seems to be a common occurence.
 
 **Support &gt; 0.0015, confidence &gt; 0.8 and length &lt;= 2**
 
-![](exam_stats_2_files/figure-markdown_strict/unnamed-chunk-88-1.png)
+![](Figs/unnamed-chunk-88-1.png)
 
 **Summary** From the association rules, following conclusions can be
 drawn: 1. People are likely to buy vegetables if they buy vegetable
