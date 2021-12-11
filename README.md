@@ -1,38 +1,7 @@
 # Introduction-to-Machine-Learning
 
-STA 380, Part 2: Exercises
-Due: by end of the working day (5:00 PM US Central time) on Monday, August 16.
+## Visual story telling part 1: green buildings
 
-Prepare your report on the problems below using RMarkdown so that they are fully reproducible, carefully integrating visual and numerical evidence with prose. You may work solo, or in groups of 4 or fewer people. You can self-organize groups via Canvas.
-
-Note: the option to submit as a group is intended to give you an incentive to get to know some of your classmates. The idea is for y'all to work together on all the problems and to learn from each other, not to divide up the individual problems.
-
-Submit via Canvas under the "Assignments" tab. You can submit in one of two ways:
-
-A link to a GitHub repo where the final report has been knitted and stored in Markdown (.md) or PDF format. (Knitting to .md format is actually best because it displays nicely in a browser. But PDF is acceptable.) Make sure your repo is publicly accessible.
-A PDF file uploaded via Canvas.
-Either way, your knitted submission file must also include a link at the top of the document to your GitHub repo where the raw .Rmd file can be found. If we cannot find the .Rmd file, you will not receive full credit.
-
-Notes:
-
-Do not knit to .html, which won't render properly on GitHub.
-Do not include raw R code in your knitted document. That's what the .Rmd file is for.
-Do not send six different sets of links, one for each problem. We want a single document.
-Do not directly e-mail the instructor directly with your reports. We will ignore any e-mailed submissions.
-If you need to include mathematical expressions in your report, you can use LaTeX, which I encourage you to learn anyway. Alternatively, you can just handwrite the math, snap a photo, and include the image in the final report. This is a simple, low-overhead option.
-We want your report to be fully reproducible. Of course, it would seem that, by its very nature, one thing that cannot be reproduced exactly is a Monte Carlo simulation. That's OK --- you can try figuring out how to set a seed for your simulation so that it is fully reproducible, or you can just accept that it will be a little bit different next time the script is compiled.
-10 points will be deducted for each day (or partial day) that your submission is late. One minute late = one day late!
-Grading criteria:
-
-Did you make an honest, concerted attempt at each problem?
-Did you attempt to address all parts of the question?
-Did you include enough detail on what you actually did so that a well-informed reader could understand your analysis in detail? (You won't receive full credit if it's not clear what steps you actually took in your analysis.)
-Did you include properly annotated figures/tables where appropriate?
-Did you write up your solution professionally, with an actual narrative flow (good), or did you just copy and paste a bunch of R code without much in the way of explanation (bad)?
-Did you use sensible procedures to answer a given question?
-Did you make any significant technical mistakes?
-Visual story telling part 1: green buildings
-The case
 Over the past decade, both investors and the general public have paid increasingly close attention to the benefits of environmentally conscious buildings. There are both ethical and economic forces at work here. In commercial real estate, issues of eco-friendliness are intimately tied up with ordinary decisions about how to allocate capital. In this context, the decision to invest in eco-friendly buildings could pay off in at least four ways.
 
 Every building has the obvious list of recurring costs: water, climate control, lighting, waste disposal, and so forth. Almost by definition, these costs are lower in green buildings.
@@ -83,7 +52,8 @@ Do you agree with the conclusions of her on-staff stats guru? If so, point to ev
 
 Note: this is intended mainly as an exercise in visual and numerical story-telling. While you can run a regression model if you want, that's not the end goal here. Telling a story is. Keep it concise.
 
-Visual story telling part 2: flights at ABIA
+## Visual story telling part 2: flights at ABIA
+
 Consider the data in ABIA.csv, which contains information on every commercial flight in 2008 that either departed from or landed at Austin-Bergstrom Interational Airport. The variable codebook is as follows:
 
 Year all 2008
@@ -119,7 +89,8 @@ Your task is to create a figure, or set of related figures, that tell an interes
 
 You have broad freedom to look at any variables you'd like here -- try to find that sweet spot where you're showing genuinely interesting relationships among more than just two variables, but where the resulting figure or set of figures doesn't become overwhelming/confusing. (Faceting/panel plots might be especially useful here.) If you want to try your hand at mapping, you can find coordinates for the airport codes here: https://github.com/datasets/airport-codes. Combine this with a mapping package like ggmap or usmap, and you should have lots of possibilities!
 
-Portfolio modeling
+## Portfolio modeling
+
 Background
 In this problem, you will construct three different portfolios of exchange-traded funds, or ETFs, and use bootstrap resampling to analyze the short-term tail risk of your portfolios. If you're unfamiliar with exchange-traded funds, you can read a bit about them here.
 
@@ -136,7 +107,9 @@ Notes:
 
 Make sure the portfolios are different from each other! (Maybe one seems safe, another aggressive, another very diverse, etc...) You're not being graded on what specific portfolios you choose... just provide some context for your choices.
 If you're unfamiliar with value at risk (VaR), you can refer to any basic explanation of the idea, e.g. here, here, or here.
-Market segmentation
+
+## Market segmentation
+
 Consider the data in social_marketing.csv. This was data collected in the course of a market-research study using followers of the Twitter account of a large consumer brand that shall remain nameless---let's call it "NutrientH20" just to have a label. The goal here was for NutrientH20 to understand its social-media audience a little bit better, so that it could hone its messaging a little more sharply.
 
 A bit of background on the data collection: the advertising firm who runs NutrientH20's online-advertising campaigns took a sample of the brand's Twitter followers. They collected every Twitter post ("tweet") by each of those followers over a seven-day period in June 2014. Every post was examined by a human annotator contracted through Amazon's Mechanical Turk service. Each tweet was categorized based on its content using a pre-specified scheme of 36 different categories, each representing a broad area of interest (e.g. politics, sports, family, etc.) Annotators were allowed to classify a post as belonging to more than one category. For example, a hypothetical post such as "I'm really excited to see grandpa go wreck shop in his geriatic soccer league this Sunday!" might be categorized as both "family" and "sports." You get the picture.
@@ -145,7 +118,8 @@ Each row of social_marketing.csv represents one user, labeled by a random (anony
 
 Your task to is analyze this data as you see fit, and to prepare a concise report for NutrientH20 that identifies any interesting market segments that appear to stand out in their social-media audience. You have complete freedom in deciding how to pre-process the data and how to define "market segment." (Is it a group of correlated interests? A cluster? A latent factor? Etc.) Just use the data to come up with some interesting, well-supported insights about the audience, and be clear about what you did.
 
-Author attribution
+## Author attribution
+
 Revisit the Reuters C50 corpus that we explored in class. Your task is to build the best model you can, using any combination of tools you see fit, for predicting the author of an article on the basis of that article's textual content. Describe clearly what models you are using, how you constructed features, and so forth. Yes, this is a supervised learning task, but it potentially draws on a lot of what you know about unsupervised learning, since constructing features for a document might involve dimensionality reduction.
 
 In the C50train directory, you have 50 articles from each of 50 different authors (one author per directory). Use this training data (and this data alone) to build the model. Then apply your model to predict the authorship of the articles in the C50test directory, which is about the same size as the training set. Describe your data pre-processing and analysis pipeline in detail.
@@ -156,7 +130,10 @@ This question will be graded according to two criteria:
 
 the clarity of your description. We will be asking ourselves: could your analysis be reproduced by a competent data scientist based on what you've said? (That's good.) Or would that person have to wade into the code in order to understand what, precisely, you've done? (That's bad.)
 the test-set performance of your best model, versus the best model that your instructors can build using tools we have learned in class.
-Association rule mining
+
+
+## Association rule mining
+
 Use the data on grocery purchases in groceries.txt and find some interesting association rules for these shopping baskets. Pick your own thresholds for lift and confidence; just be clear what these thresholds are and how you picked them. Do your discovered item sets make sense? Present your discoveries in an interesting and concise way.
 
 Notes:
