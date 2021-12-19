@@ -1,4 +1,4 @@
-# Introduction-to-Machine-Learning
+# Unsupervised-Machine-Learning
 
 ## Visual story telling part 1: green buildings
 
